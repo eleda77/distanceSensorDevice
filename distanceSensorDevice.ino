@@ -1,3 +1,7 @@
+//code for device that senses distance from user's face
+//device should be attached to phone case
+
+//declare initial variables
 int output = 10;
 int input = 9;
 int buzz = 8;
@@ -6,7 +10,7 @@ int voice = 11;
 long duration, cm, inches;
 
 void setup() {
-  // put your setup code here, to run once:
+  // setup code
   Serial.begin(9600);
   pinMode(output, OUTPUT);
   pinMode(input, INPUT);
